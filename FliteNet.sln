@@ -1,0 +1,127 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FliteNet", "FliteNet\FliteNet.vcxproj", "{B7994992-2E06-47F8-B153-2D9CB62E08BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Flite", "Flite", "{A9F3544C-55B1-4578-95AF-E86B8AEE7F9B}"
+	ProjectSection(SolutionItems) = preProject
+		Flite\COPYING = Flite\COPYING
+		Flite\www.cmuflite.org.url = Flite\www.cmuflite.org.url
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "include", "include", "{A76065BF-2A0F-422D-BBC0-C54EDED06169}"
+	ProjectSection(SolutionItems) = preProject
+		Flite\include\cst_alloc.h = Flite\include\cst_alloc.h
+		Flite\include\cst_args.h = Flite\include\cst_args.h
+		Flite\include\cst_audio.h = Flite\include\cst_audio.h
+		Flite\include\cst_cart.h = Flite\include\cst_cart.h
+		Flite\include\cst_cg.h = Flite\include\cst_cg.h
+		Flite\include\cst_clunits.h = Flite\include\cst_clunits.h
+		Flite\include\cst_diphone.h = Flite\include\cst_diphone.h
+		Flite\include\cst_endian.h = Flite\include\cst_endian.h
+		Flite\include\cst_error.h = Flite\include\cst_error.h
+		Flite\include\cst_features.h = Flite\include\cst_features.h
+		Flite\include\cst_ffeatures.h = Flite\include\cst_ffeatures.h
+		Flite\include\cst_file.h = Flite\include\cst_file.h
+		Flite\include\cst_hrg.h = Flite\include\cst_hrg.h
+		Flite\include\cst_item.h = Flite\include\cst_item.h
+		Flite\include\cst_lexicon.h = Flite\include\cst_lexicon.h
+		Flite\include\cst_lts.h = Flite\include\cst_lts.h
+		Flite\include\cst_lts_rewrites.h = Flite\include\cst_lts_rewrites.h
+		Flite\include\cst_math.h = Flite\include\cst_math.h
+		Flite\include\cst_phoneset.h = Flite\include\cst_phoneset.h
+		Flite\include\cst_regex.h = Flite\include\cst_regex.h
+		Flite\include\cst_relation.h = Flite\include\cst_relation.h
+		Flite\include\cst_sigpr.h = Flite\include\cst_sigpr.h
+		Flite\include\cst_socket.h = Flite\include\cst_socket.h
+		Flite\include\cst_ss.h = Flite\include\cst_ss.h
+		Flite\include\cst_string.h = Flite\include\cst_string.h
+		Flite\include\cst_sts.h = Flite\include\cst_sts.h
+		Flite\include\cst_synth.h = Flite\include\cst_synth.h
+		Flite\include\cst_tokenstream.h = Flite\include\cst_tokenstream.h
+		Flite\include\cst_track.h = Flite\include\cst_track.h
+		Flite\include\cst_units.h = Flite\include\cst_units.h
+		Flite\include\cst_utt_utils.h = Flite\include\cst_utt_utils.h
+		Flite\include\cst_utterance.h = Flite\include\cst_utterance.h
+		Flite\include\cst_val.h = Flite\include\cst_val.h
+		Flite\include\cst_val_const.h = Flite\include\cst_val_const.h
+		Flite\include\cst_val_defs.h = Flite\include\cst_val_defs.h
+		Flite\include\cst_viterbi.h = Flite\include\cst_viterbi.h
+		Flite\include\cst_voice.h = Flite\include\cst_voice.h
+		Flite\include\cst_wave.h = Flite\include\cst_wave.h
+		Flite\include\cst_wchar.h = Flite\include\cst_wchar.h
+		Flite\include\flite.h = Flite\include\flite.h
+		Flite\include\flite_version.h = Flite\include\flite_version.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{8C17942F-E1DC-4D2C-8923-0808B0EAF154}"
+	ProjectSection(SolutionItems) = preProject
+		Flite\lib\libflite.a = Flite\lib\libflite.a
+		Flite\lib\libflite_cmu_time_awb.a = Flite\lib\libflite_cmu_time_awb.a
+		Flite\lib\libflite_cmu_us_awb.a = Flite\lib\libflite_cmu_us_awb.a
+		Flite\lib\libflite_cmu_us_kal.a = Flite\lib\libflite_cmu_us_kal.a
+		Flite\lib\libflite_cmu_us_kal16.a = Flite\lib\libflite_cmu_us_kal16.a
+		Flite\lib\libflite_cmu_us_rms.a = Flite\lib\libflite_cmu_us_rms.a
+		Flite\lib\libflite_cmu_us_slt.a = Flite\lib\libflite_cmu_us_slt.a
+		Flite\lib\libflite_cmulex.a = Flite\lib\libflite_cmulex.a
+		Flite\lib\libflite_usenglish.a = Flite\lib\libflite_usenglish.a
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "Demo\Demo.csproj", "{FE90172B-A2A9-4421-B29B-C68AEC6861B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B6FE3D6D-C2CF-4861-B0C7-FBE1A06D9BBF}"
+	ProjectSection(SolutionItems) = preProject
+		License.txt = License.txt
+		ReadMe.txt = ReadMe.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GeneratedVoices", "GeneratedVoices", "{D15F1433-5B36-4D60-B264-48C363DB95BC}"
+	ProjectSection(SolutionItems) = preProject
+		GeneratedVoices\Awb.wav = GeneratedVoices\Awb.wav
+		GeneratedVoices\HelloWorld.wav = GeneratedVoices\HelloWorld.wav
+		GeneratedVoices\Kal.wav = GeneratedVoices\Kal.wav
+		GeneratedVoices\Rms.wav = GeneratedVoices\Rms.wav
+		GeneratedVoices\Slt.wav = GeneratedVoices\Slt.wav
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|Win32 = Debug|Win32
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7994992-2E06-47F8-B153-2D9CB62E08BB}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{B7994992-2E06-47F8-B153-2D9CB62E08BB}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{B7994992-2E06-47F8-B153-2D9CB62E08BB}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{B7994992-2E06-47F8-B153-2D9CB62E08BB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B7994992-2E06-47F8-B153-2D9CB62E08BB}.Debug|Win32.Build.0 = Debug|Win32
+		{B7994992-2E06-47F8-B153-2D9CB62E08BB}.Release|Any CPU.ActiveCfg = Release|Win32
+		{B7994992-2E06-47F8-B153-2D9CB62E08BB}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{B7994992-2E06-47F8-B153-2D9CB62E08BB}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{B7994992-2E06-47F8-B153-2D9CB62E08BB}.Release|Win32.ActiveCfg = Release|Win32
+		{B7994992-2E06-47F8-B153-2D9CB62E08BB}.Release|Win32.Build.0 = Release|Win32
+		{FE90172B-A2A9-4421-B29B-C68AEC6861B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE90172B-A2A9-4421-B29B-C68AEC6861B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE90172B-A2A9-4421-B29B-C68AEC6861B7}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{FE90172B-A2A9-4421-B29B-C68AEC6861B7}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{FE90172B-A2A9-4421-B29B-C68AEC6861B7}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{FE90172B-A2A9-4421-B29B-C68AEC6861B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE90172B-A2A9-4421-B29B-C68AEC6861B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE90172B-A2A9-4421-B29B-C68AEC6861B7}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{FE90172B-A2A9-4421-B29B-C68AEC6861B7}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{FE90172B-A2A9-4421-B29B-C68AEC6861B7}.Release|Win32.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A76065BF-2A0F-422D-BBC0-C54EDED06169} = {A9F3544C-55B1-4578-95AF-E86B8AEE7F9B}
+		{8C17942F-E1DC-4D2C-8923-0808B0EAF154} = {A9F3544C-55B1-4578-95AF-E86B8AEE7F9B}
+	EndGlobalSection
+EndGlobal
